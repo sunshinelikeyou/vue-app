@@ -1,0 +1,33 @@
+/* 网页样式reset */
+body{font:12px/1.5 arial,"微软雅黑",georgia,verdana,helvetica,sans-serif}
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}
+img{
+	vertical-align: bottom;
+}
+li{
+	list-style: none;	/*清楚li的列表符号*/
+}
+a{
+	text-decoration: none;		/*清除a链接自带的下划线*/
+	color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+input,select,button{
+	outline: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	visibility:hidden;
+	clear: both;
+}
